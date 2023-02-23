@@ -70,7 +70,7 @@ up development and keep a unified look.
 state right now 
 * Could use something like Next.js for SEO with it's server-side rendered pages.
 * Use a CSS preprocessor like Less/Sass - the current CSS classes are quite redundant and can easily be cleaned up.
-
+* Use Typescript
 
 #### Infra
 * Setup proper Terraform modules and organize
