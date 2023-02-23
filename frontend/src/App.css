@@ -1,0 +1,7 @@
+.App {
+  position: relative;
+  background: #FAFAFA;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

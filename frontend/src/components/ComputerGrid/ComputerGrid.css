@@ -1,0 +1,37 @@
+.ComputerGrid {
+    margin-left: 260px;
+    margin-right: 260px;
+}
+
+.ComputerGrid__display_cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    column-gap: 16px;
+}
+
+.ComputerGrid__show_more {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.ComputerGrid__show_more_button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #1AB76C;
+    margin-top: 24px;
+    margin-bottom: 137px;
+    padding: 8px 20px;
+    background: none;
+    border: none;
+}
+
+button:hover {
+    color: #107845;
+}
+

@@ -1,0 +1,146 @@
+.DisplayCard {
+    height: 373px;
+    width: 332px;
+    margin: 16px 0px;
+
+    background: #FFFFFF;
+
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+}
+
+
+.DisplayCard__image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 8px;
+    margin-bottom: -10px;
+}
+
+.DisplayCard__image_bounds {
+    height: 132px;
+    width: 132px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.DisplayCard__image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.DisplayCard__non_image_content {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.DisplayCard__vendor {
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #363636;
+
+    margin-bottom: 4px;
+}
+
+.DisplayCard__title {
+    height: 56px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #363636;
+    margin-top: 4px;
+    margin-bottom: 6px;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.DisplayCard__pricing {
+    padding: 8px 0px;
+}
+
+.DisplayCard__sale_price {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FF6669;
+}
+
+.DisplayCard__original_price {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #9C9C9C;
+}
+
+.DisplayCard hr {
+    margin-top: 8px;
+    margin-bottom: 0px;
+    height: 1px;
+    background-color: #E8E8E8;
+    border-style: none;
+}
+
+.DisplayCard__incentives {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.DisplayCard__incentives span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: capitalize;
+
+    color: #9C9C9C;
+
+    padding-left: 6px;
+    padding-right: 14px;
+}
+
+.DisplayCard__view_deal_button {
+    margin-top: 32px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    /* white */
+
+    color: #FFFFFF;
+    background: #1AB76C;
+    border-radius: 38px;
+    border: none;
+
+    width: 292px;
+    height: 44px;
+}
+
+

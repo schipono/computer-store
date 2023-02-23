@@ -1,0 +1,6 @@
+#! /bin/bash
+# Use AWS Execute Command to open a shell in one of the running backend tasks
+
+TASK_ID=`aws ecs list-tasks --cluster computer_store | egrep 'arn:aws:ecs' | tail -1 | awk -F "/" '{print $NF}' | sed 's/"//'`
+
+aws ecs execute-command --cluster computer_store --task $TASK_ID --interactive --command "/bin/sh"

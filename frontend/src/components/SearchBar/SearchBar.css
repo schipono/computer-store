@@ -1,0 +1,59 @@
+.SearchBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 260px;
+
+    height: 106px;
+    left: 0px;
+    right: 0px;
+    top:-8px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.SearchBar__input_group {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 100%;
+    min-width: 332px;
+    height: 40px;
+
+    background: #F7F7F7;
+    border-radius: 2000px;
+}
+
+.SearchBar__search_icon {
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+    min-height: 20px;
+    padding: 10px 16px;
+    fill: rgb(156, 156, 156);
+    fill-opacity: 0.8;
+}
+
+.SearchBar__input {
+    all: unset;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    height: 19px;
+    width: 100%;
+    padding: 10px 0px 9px 0px;
+
+    text-align: left;
+
+    color: rgba(156, 156, 156, 0.8);
+}
+
+::-webkit-input-placeholder {
+    color: rgba(156, 156, 156, 0.8);
+}

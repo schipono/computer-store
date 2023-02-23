@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Pycharm/Idea suite
+.idea/
+
+# Postgres Datastore
+pgdata/
+
+.DS_Store
+.terraform*
